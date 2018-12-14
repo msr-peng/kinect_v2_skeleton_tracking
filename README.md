@@ -1,7 +1,7 @@
 Skeleton Tracking Based on Kinect Sensor V2
 ===========================================
 
-This work is to realize communication between Windows and Ubuntu to interact skeleton tracking data. Windows's advantage is that its kinect application is easily to install, and it has powerful Kinect SDK to get and process skeleton tracking data directly. Ubuntus's advantage is that it support ROS, and can make robotics system access these data. All of these inspired me to combine these two system, and provide a basis for roboticists to do further work on skeleton tracking.
+This work is to realize communication between Windows and Ubuntu to interact skeleton tracking data based on [rosserial_windows](http://wiki.ros.org/rosserial_windows). Windows's advantage is that its kinect application is easily to install, and it has powerful Kinect SDK to get and process skeleton tracking data directly. Ubuntus's advantage is that it support ROS, and can make robotics system access these data. All of these inspired me to combine these two system, and provide a basis for roboticists to do further work on skeleton tracking.
 
 For this repository, `Kinect_V2` is folder should only run on Windows, `kinect_v2` is folder should only run on Ubuntu.
 
@@ -29,9 +29,10 @@ For this repository, `Kinect_V2` is folder should only run on Windows, `kinect_v
     ```bash
     ifconfig
     ```
-    Then you should get the IP address behind "inet addr:"
+    Then you should get the IP address which behind "inet addr:"
 
 3. Start ROS and rosserial_server
+    
     In order for rosserial_windows to communicate with the ROS master, a server socket is needed to connect. Now I just uses a TCP socket, but in theory it is also possible to sue a serial port. On the ROS master, start the ROS core:
     ```bash
     roscore
@@ -64,3 +65,5 @@ For this repository, `Kinect_V2` is folder should only run on Windows, `kinect_v
     rosrun rviz rviz -f kinect_v2
     ```
     Then in `Rviz`, add `TF` to display, you should see the frames of skeleton keypoints.
+
+For more potential applications, please refer to [rosserial_windows](http://wiki.ros.org/rosserial_windows).
