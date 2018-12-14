@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  Kinect_V2.cpp
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\topicinfo.h(49): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\topicinfo.h(54): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\topicinfo.h(59): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\log.h(36): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\requestparam.h(27): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\rosserial_msgs\requestparam.h(121): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\std_msgs\header.h(48): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\ros_lib\kinect_v2\bodyjoints.h(42): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\admin\source\repos\kinect_v2\kinect_v2\kinect_v2.cpp(199): warning C4715: 'get_body': not all control paths return a value
+  Kinect_V2.vcxproj -> C:\Users\admin\source\repos\Kinect_V2\x64\Debug\Kinect_V2.exe
