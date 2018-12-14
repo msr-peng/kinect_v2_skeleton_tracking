@@ -8,10 +8,8 @@ For this repository, `Kinect_V2` is folder should only run on Windows, `kinect_v
 **note: Before everything starting, make sure your Windows and Ubuntu both connect to the same local network to secure the communication between their ROS clients. And also make sure to plugin Kinect Sensor V2 to USB3.0 port on your windows computer.
     
 ### Windows
-1. Download and install Kinect for Windows SDK 2.0
-    
-    The download page is [here](https://www.microsoft.com/en-us/download/details.aspx?id=44561).
-    
+1. Download and install Kinect for Windows SDK 2.0 from [here](https://www.microsoft.com/en-us/download/details.aspx?id=44561)
+
 2. Verify the successful installation in Device Manager.
 
 3. Open `Kinect v2`, and then install `Kinect Configuration Verifier` to check the success of installation.
