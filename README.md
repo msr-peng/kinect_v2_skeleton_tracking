@@ -3,7 +3,7 @@ Skeleton Tracking Based on Kinect Sensor V2
 
 This work is to realize communication between Windows and Ubuntu to interact skeleton tracking data based on [rosserial_windows](http://wiki.ros.org/rosserial_windows). Windows's advantage is that its kinect application is easily to install, and it has powerful Kinect SDK to get and process skeleton tracking data directly. Ubuntus's advantage is that it support ROS, and can make robotics system access these data. All of these inspired me to combine these two system, and provide a basis for roboticists to do further work on skeleton tracking.
 
-For this repository, `Kinect_V2` is folder should only run on Windows, `kinect_v2` is folder should only run on Ubuntu.
+For this repository, `Kinect_V2_Windows` is folder should only run on Windows, `kinect_v2_Ubuntu` is folder should only run on Ubuntu.
 
 **note: Before everything starting, make sure your Windows and Ubuntu both connect to the same local network to secure the communication between their ROS clients. And also make sure to plugin Kinect Sensor V2 to USB3.0 port on your windows computer.
     
